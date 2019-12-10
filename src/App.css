@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,700&display=swap');
+
+body{
+  font-family: 'Ubuntu', sans-serif;
+}
+input:focus {
+  outline: none;
+}
+
+header.header {
+  padding: 20px 0;
+}
+a.logo {
+  text-decoration: none;
+  color: #000;
+  font-weight: 800;
+  font-size: 28px;
+}
+
+.mainmenu ul {
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.mainmenu ul li {
+  display: inline-block;
+}
+
+.mainmenu ul li a {
+  padding: 10px;
+  color: black;
+  display: block;
+  position: relative;
+  text-decoration: none;
+}
+
+.mainmenu  li a:hover:after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 30px;
+  background: black;
+  bottom: 6px;
+  left: 40%;
+  margin-left: -8px;
+}
+input[type="text"] {
+  border: 1px solid #ddd;
+  padding: 4px 10px;
+  width: 180px;
+}
+
+input[type="submit"] {background: black;color: white;border: none;padding: 5px 20px;width: 100px;
+}
+.content-block {
+  padding: 41px;
+}
+
+.single-item-photo h5 {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: black;
+  margin-bottom:15px;
+}
+img{
+  max-width:100%;
+}
+.single-photo-item a {text-transform: uppercase;font-size: 9px;text-decoration: none;}
+
+p.cat-name {
+  opacity: 0.5;
+  font-size: 90%;
+  color: black;
+}
+h2.heading {
+  /* text-align: center; */
+  /* margin: 22px 0 42px 0; */
+  font-size: 24px;
+}
+.footer-menu{
+  margin:30px 0 100px 0;
+}
+.footer-menu a {text-transform: uppercase;letter-spacing: 1px;text-decoration: none; padding:10px;}
+
+.footer-menu ul {
+  list-style: none;
+}
+
+.footer-menu li {
+  display: inline-block;
+ 
+}
+h5.contact {
+  font-size: x-large;
+  font-weight: 400;
+  margin: 40px 0 0 0;
+}
+.copyright-text{
+  margin-bottom:30px;
+}
+.photo-wrapper {
+  height: 190px;
+  margin:0 0 15px 0;
+}
+
+.photo-wrapper img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.load-more-btn {
+    text-align: center;
+    margin: 28px 0 60px 0;
+}
+
+.load-more-btn button {
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: cornflowerblue;
+    color: white;
+}
+
+.from.row {
+  margin-bottom: 22px;
+}
+.photo-box.row {
+  margin-top: 20px;
+}
+
+.photo-single-info {
+  padding: 15px;
+  position: absolute;
+  background: aliceblue;
+  border-radius: 8px;
+  top:5%;
+  left:5%;
+}
+
+.photo-single-info a {
+  background: black;
+  color: white;
+  padding: 7px;
+  margin: 0px 0 0px 21px;
+  border-radius: 3px;
+  font-size: 15px;
+  text-decoration:none;
+  border:1px solid rgb(255, 255, 255);
+
+}
+
+.photo-single-info a:hover{
+  color: black;
+  background: aliceblue;
+  border:1px solid black;
+}
+
+.photo-single-info ul {
+  font-size: 14px;
+  font-weight: 500;
+  list-style-type: none;
+  margin-left:-15px;
+}
+.photo-single-info li{
+  border-bottom: 1px solid rgb(201, 197, 197);
+  margin-bottom: 5px;
+}
